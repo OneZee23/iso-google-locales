@@ -1,7 +1,12 @@
 import TWO_LETTER_LANGUAGES from './data';
 import ADDITIONAL_LANGUAGES from './additional';
+import ADDITIONAL_GOOGLE_LANGUAGES from './additional-google';
 
-const LANGUAGES_LIST = { ...TWO_LETTER_LANGUAGES, ...ADDITIONAL_LANGUAGES };
+const LANGUAGES_LIST = {
+  ...TWO_LETTER_LANGUAGES,
+  ...ADDITIONAL_LANGUAGES,
+  ...ADDITIONAL_GOOGLE_LANGUAGES,
+};
 
 export default class ISO6391 {
   static getLanguages(codes = []) {
