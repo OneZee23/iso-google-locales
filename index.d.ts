@@ -1,4 +1,4 @@
-declare module "iso-639-1-plus" {
+declare module "iso-google-locales" {
   interface ISO6391 {
     getName: (code: string) => string;
     getAllNames: () => Array<string>;

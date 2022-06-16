@@ -16,7 +16,7 @@ Forked from [iso-639-1](https://github.com/meikidd/iso-639-1) and extended with 
 ## Installation
 
 ```
-npm install iso-639-1-plus
+npm install iso-google-locales
 ```
 
 ## Usage
@@ -24,14 +24,14 @@ npm install iso-639-1-plus
 ### Node.js
 
 ```javascript
-const ISO6391 = require('iso-639-1-plus');
+const ISO6391 = require('iso-google-locales');
 console.log(ISO6391.getName('en-GB')); // 'English (United Kingdom)'
 ```
 
 ### ES Module
 
 ```javascript
-import ISO6391 from 'iso-639-1-plus';
+import ISO6391 from 'iso-google-locales';
 console.log(ISO6391.getName('en-GB')); // 'English (United Kingdom)'
 ```
 
@@ -40,7 +40,7 @@ console.log(ISO6391.getName('en-GB')); // 'English (United Kingdom)'
 HTML
 
 ```html
-<script type="text/javascript" src="./node_modules/iso-639-1-plus/build/index.js"></script>
+<script type="text/javascript" src="./node_modules/iso-google-locales/build/index.js"></script>
 ```
 
 Visit global variable ISO6391 in js
@@ -100,7 +100,7 @@ Get the array of the language objects by the given codes
 ## Example
 
 ```
-const ISO6391 = require('iso-639-1-plus')
+const ISO6391 = require('iso-google-locales')
 
 console.log(ISO6391.getName('zh')) // 'Chinese'
 console.log(ISO6391.getNativeName('zh')) // '中文'
