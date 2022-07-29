@@ -15,6 +15,14 @@ const ADDITIONAL_GOOGLE_LANGUAGES = {
     name: 'Javanese',
     nativeName: 'ꦧꦱꦗꦮ',
   },
+  ckb: {
+    name: 'Central Kurdish',
+    nativeName: 'کوردیی ناوەندی',
+  },
+  mai: {
+    name: 'Maithili',
+    nativeName: 'मैथिली',
+  },
   'zh-CN': {
     name: 'Chinese (Simplified)',
     nativeName: '中文',
